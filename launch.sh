@@ -6,7 +6,7 @@ cd /data
 
 if ! [[ -f serverinstall_100_2308 ]]; then
 	rm -fr config defaultconfigs kubejs libraries log4jfix mods resourcepacks minecraft-server-1.18.2.jar version.json start.sh run.* user_jvm_args.txt serverinstall_100_*
-	mv /serverinstall_100_2287 /data/serverinstall_100_2308
+	mv /serverinstall_100_2308 /data/serverinstall_100_2308
 	./serverinstall_100_2308 -auto
 fi
 
