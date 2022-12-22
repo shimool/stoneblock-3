@@ -12,7 +12,7 @@ COPY launch.sh /launch.sh
 RUN dos2unix /launch.sh
 RUN chmod +x /launch.sh
 
-COPY serverinstall_100_2287 /serverinstall_100_2308
+COPY serverinstall_100_2308 /serverinstall_100_2308
 COPY stoneblock-3.png /stoneblock-3.png
 RUN chmod +x /serverinstall_100_2308
 
